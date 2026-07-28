@@ -53,7 +53,7 @@ else:
 # ==============================================================================
 if not DEBUG:
     # Cookies & Sessions over HTTPS
-    # SESSION_COOKIE_SECURE = True
+    SESSION_COOKIE_SECURE = True
     # CSRF_COOKIE_SECURE = True
     # SESSION_COOKIE_HTTPONLY = True
 
